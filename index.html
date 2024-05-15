@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, 
+        initial-scale=1.0" />
+        <title>Forms Test</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+<body>
+<h1>Please enter your information</h1>
+<form>
+    <label for="name">Name:</label>
+    <input id="name" type="text" name="name" />
+  </form>
+  <form>
+    <label for="name">Email:</label>
+    <input id="name" type="text" name="name" />
+  </form>
+
+  <form>
+    <label for="form-message">Your message:</label>
+    <textarea id="form-message" 
+    name="message"
+    maxlength="450"></textarea>
+  </form>
+  <form>
+    <div class="radios">
+        <legend>Married</legend>
+        <div class="radio-input"><input type="radio" id="yes" value="yes"/>  <label for="yes">Yes</label></div>
+        <div class="radio-input"><input type="radio" id="no" value="no"/>  <label for="no">No</label></div>
+        <div class="radio-input"><input type="radio" id="na" value="na"/>  <label for="na">N/A</label></div>
+    </div>
+    <div class="radios">
+        <legend>Currently Working</legend>
+        <div class="radio-input"><input type="radio" id="yes" value="yes"/>  <label for="yes">Yes</label></div>
+        <div class="radio-input"><input type="radio" id="no" value="no"/>  <label for="no">No</label></div>
+    </div>
+    <div class="radios">
+        <legend>Is this important?</legend>
+        <div class="radio-input"><input type="radio" id="yes" value="yes"/>  <label for="yes">Yes</label></div>
+        <div class="radio-input"><input type="radio" id="no" value="no"/>  <label for="no">No</label></div>
+        <div class="radio-input"><input type="radio" id="what" value="what"/>  <label for="what">What?</label></div>
+    </div>
+</form>
+<button type="submit">Submit</button>
+</body>
+</html>
